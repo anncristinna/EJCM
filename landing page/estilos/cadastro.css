@@ -45,13 +45,17 @@
 
 #checkbox-label {
     display: inline;
-    
+}
+
+div label#checkbox-label {
+    text-align: center;
 }
 
 #checkbox-input {
     display: inline-block;
     /*height: 30px;*/
     width: 15px;
+    margin-left: 10px;
 }
 
 .form-item input {
@@ -86,6 +90,17 @@
     color: #105F74;
     text-decoration: none;
     margin-top: 10px;
+}
+
+.label-field {
+    display: flex;
+    position: relative;
+    label {
+        position: absolute;
+        bottom: 8vh;
+        left: 2vh;
+        background-color: #F2F2F2;
+    }
 }
 
 

@@ -57,7 +57,7 @@
 #esqueci-senha {
     align-self: flex-end;
     margin-right: 27px;
-    margin-bottom: 15px;
+    margin-bottom: 41px;
 }
 
 #esqueci-senha a {
@@ -76,8 +76,7 @@
     font-size: 1em;
     text-align: center;
     font-weight: 700px;
-    margin-bottom: 15px;
-    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 #registrar {
@@ -94,4 +93,19 @@
 #termos {
     padding: 0px 10px 0px 10px;
     max-width: 447px;
+}
+
+.form-item div:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+
+.label-field {
+    display: flex;
+    position: relative;
+    label {
+        position: absolute;
+        bottom: 8vh;
+        left: 2vh;
+        background-color: #F2F2F2;
+    }
 }
