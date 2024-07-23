@@ -16,6 +16,10 @@
     padding: 216px 173px 216px 173px;
 }
 
+#logo-p {
+    display: none;
+}
+
 .form-item{
     width: 547px;
     background-color: #F2F2F2;
