@@ -93,6 +93,7 @@
 #termos {
     padding: 0px 10px 0px 10px;
     max-width: 447px;
+    text-align: center;
 }
 
 .form-item div:nth-of-type(1) {
@@ -108,4 +109,10 @@
         left: 2vh;
         background-color: #F2F2F2;
     }
+}
+
+.label-field img {
+    position: absolute;
+    left: 360px;
+    top: 10px;
 }

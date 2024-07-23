@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter";
+    text-align: center;
 }
 
 .main-container {
@@ -39,6 +40,10 @@
     margin-bottom: 30px;
 }
 
+::-webkit-input-placeholder  {
+    text-align: left; 
+}
+
 .form-item label {
     display: block;
 }
@@ -55,8 +60,10 @@ div label#checkbox-label {
     display: inline-block;
     /*height: 30px;*/
     width: 15px;
-    margin-left: 10px;
+    margin-left: 15px;
+    text-align: center;
 }
+
 
 .form-item input {
     width: 400px;
@@ -101,6 +108,12 @@ div label#checkbox-label {
         left: 2vh;
         background-color: #F2F2F2;
     }
+}
+
+.label-field img {
+    position: absolute;
+    left: 360px;
+    top: 10px;
 }
 
 

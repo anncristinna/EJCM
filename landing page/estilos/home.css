@@ -25,6 +25,12 @@
     border: 1px;
 }
 
+.input-item img {
+    position: absolute;
+    left: 810px;
+    top: 35px;
+}
+
 .main-container {
     display: flex;
     background-color: #181B24;
@@ -67,6 +73,10 @@
     display: flex;
     align-items: center;
     width: 100%;
+}
+
+.post-nav img {
+    margin-left: 11px;
 }
 
 #postar-button {
