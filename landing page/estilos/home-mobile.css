@@ -25,6 +25,12 @@
     max-width: 65vw;
 }
 
+.input-item img {
+    position: absolute;
+    left: 76vw;
+    top: 5vh;
+}
+
 .main-container {
     flex-direction: column;
     flex-wrap: wrap;
@@ -59,7 +65,21 @@
 
 .post-item {
     order: 1;
-    max-width: 95vw;
+    max-width: 88vw;
+    justify-self: center;
+    margin: 0 4vw;
+}
+
+.posts img {
+   margin: 0 auto;
+}
+
+.posts {
+    padding: 32px 52px 10px 48px;
+}
+
+.posts-user h3{
+    margin-right: 15vw;
 }
 
 #img-p {

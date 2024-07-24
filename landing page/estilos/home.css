@@ -28,13 +28,12 @@
 
 .input-item img {
     position: absolute;
-    left: 810px;
-    top: 35px;
+    left: 52.4vw;
+    top: 5vh;
 }
 
 .main-container {
     display: flex;
-    flex-wrap: wrap;
     background-color: #181B24;
     max-width: 100%;
 }
@@ -54,7 +53,8 @@
 
 .post-item {
     align-self:flex-start;
-    width: 670px;
+    justify-self: center;
+    max-width: 670px;
     margin-top: 47px;
 }
 
@@ -102,6 +102,14 @@
     padding: 47px 73px 20px 97px;
     margin-top: 30px;
     border-radius: 15px;
+}
+
+.posts p {
+    color: #FFFFFF;
+    margin-top: 3vh;
+    max-width: 50vw;
+    font-weight: 400;
+    font-size: 1em;
 }
 
 .posts-user {
