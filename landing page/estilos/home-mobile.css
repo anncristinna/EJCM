@@ -67,9 +67,9 @@
 
 .post-item {
     order: 1;
-    max-width: 88vw;
+    max-width: 85%;
     justify-self: center;
-    margin: 0 4vw;
+    margin: 0 4vw; 
 }
 
 .posts img {
