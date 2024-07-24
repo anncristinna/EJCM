@@ -24,13 +24,25 @@
 }
 
 .form-item {
-    max-width: 450px;
+    width: 100%;
     max-height: 600px;
     padding: 20px;
 }
 
+.label-field {
+    width: 100%;
+}
+
+.form-item input {
+    width: 100%;
+}
+
 .form-item h1 {
     margin-top: 4px;
+}
+
+#esqueci-senha {
+    margin-right: 0;
 }
 
 .form-item button {

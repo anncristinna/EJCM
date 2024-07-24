@@ -22,9 +22,21 @@
 }
 
 .form-item {
-    max-width: 450px;
-    max-height: 600px;
+    width: 350px;
+    max-height: 590px;
     padding: 12px;
+}
+
+.form-item button {
+    width: 80%;
+}
+
+.label-field {
+    width: 100%;
+}
+
+.form-item input {
+    width: 100%;
 }
 
 .form-item h1 {

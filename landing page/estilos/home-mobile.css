@@ -21,15 +21,14 @@
     margin-right: 25px;
 }
 
-.input-item input {
-    max-width: 65vw;
+.input-item {
+    flex: 1;
 }
 
-.input-item img {
-    position: absolute;
-    left: 76vw;
-    top: 5vh;
+.input-item input {
+    width: 100%;
 }
+
 
 .main-container {
     flex-direction: column;
@@ -39,17 +38,20 @@
 
 .friends-item {
     order: 0;
-    margin-left: 10px;
-    margin-top: 8px;
+    padding: 10px 8px;
+    margin: 0;
+    max-width: 100%;
 }
 
 .users {
     display: flex;
+    gap: 2px;
+    justify-content: space-between;
 }
 
 .user-item {
     flex-direction: column;
-    margin-right: 2px;
+    
 }
 
 
@@ -78,11 +80,16 @@
     padding: 32px 52px 10px 48px;
 }
 
+.posts-user img{
+    max-width: 24px;
+}
+
 .posts-user h3{
     margin-right: 15vw;
 }
 
 #img-p {
+    width: 100%;
     display: block;
 }
 
@@ -95,7 +102,8 @@
     display: flex;
     justify-content: space-around;
     order: 2;
-    width: 96vw;
+    width: 100%;
+    max-height: 70px;
 }
 
 

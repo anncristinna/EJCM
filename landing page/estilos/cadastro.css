@@ -7,13 +7,13 @@
 }
 
 .main-container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     background-color: #181B24;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 216px 173px 216px 173px;
+    padding: 0px 173px 0px 173px;
 }
 
 #logo-p {
@@ -56,6 +56,10 @@
     display: inline;
 }
 
+p a {
+    color: #105F74;
+}
+
 div label#checkbox-label {
     text-align: center;
 }
@@ -87,12 +91,19 @@ div label#checkbox-label {
     padding: 15px 20px 15px 20px;
     gap: 10px;
     background-color: #105F74;
-    color: white;
     font-size: 1em;
     text-align: center;
     font-weight: 700px;
     margin-bottom: 10px;
     margin-top: 25px;
+}
+
+.form-item button a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
 }
 
 .form-item #login-a {
@@ -109,17 +120,20 @@ div label#checkbox-label {
     position: relative;
     label {
         position: absolute;
-        bottom: 8vh;
-        left: 2vh;
+        top: 0;
+        left: 16px;
+        transform: translateY(-50%);
         background-color: #F2F2F2;
     }
 }
 
 .label-field img {
     position: absolute;
-    left: 360px;
+    right: 20px;
     top: 10px;
 }
+
+
 
 
 
