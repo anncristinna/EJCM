@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo-g{
+    display: none;
+}
+
+#logo-p {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 90px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0%;
+    padding: 40px;
+}
+
+.form-item {
+    max-width: 450px;
+    max-height: 600px;
+    padding: 20px;
+}
+
+.form-item h1 {
+    margin-top: 4px;
+}
+
+.form-item button {
+    max-width: 291px;
+}
+
+#login-a {
+    margin-bottom: 0;
+}

@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#conheca {
+    display: none;
+}
+
+#conheca-mobile {
+    text-align: left;
+    display: block;
+}
+
+.header-container {
+    max-width: 100vw;
+}
+
+.img-item {
+    margin-right: 25px;
+}
+
+.input-item input {
+    max-width: 65vw;
+}
+
+.main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100vw;
+}
+
+.friends-item {
+    order: 0;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.users {
+    display: flex;
+}
+
+.user-item {
+    flex-direction: column;
+    margin-right: 2px;
+}
+
+
+.user-item button {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-item h3 {
+    margin-right: 20px;
+}
+
+.post-item {
+    order: 1;
+    max-width: 95vw;
+}
+
+#img-p {
+    display: block;
+}
+
+#img-g {
+    display: none;
+}
+
+.icons-item {
+    background-color: #14161D ;
+    display: flex;
+    justify-content: space-around;
+    order: 2;
+    width: 96vw;
+}
+
+
+
