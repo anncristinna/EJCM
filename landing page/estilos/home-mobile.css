@@ -38,7 +38,7 @@
 
 .friends-item {
     order: 0;
-    padding: 10px 8px;
+    padding: 10px 4x;
     margin: 0;
     max-width: 100%;
 }
@@ -62,7 +62,7 @@
 }
 
 .user-item h3 {
-    margin-right: 20px;
+    margin-right: 7px;
 }
 
 .post-item {
@@ -85,7 +85,7 @@
 }
 
 .posts-user h3{
-    margin-right: 15vw;
+    margin-right: 30px;
 }
 
 #img-p {
